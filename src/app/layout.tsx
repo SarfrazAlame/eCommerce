@@ -23,7 +23,7 @@ export default function RootLayout({
           <p>FlipZone</p>
         </div>
         <div>
-          <div>
+          <div className="w-full">
             <Header />
           </div>
           <div>
