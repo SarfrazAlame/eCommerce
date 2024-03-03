@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import UpperHeader from "@/components/UpperHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="hidden min-[300px]:flex">
-          <p>FlipZone</p>
-        </div>
         <div>
-          <div className="w-full">
+          <div>
+            <UpperHeader />
+          </div>
+          <div>
             <Header />
           </div>
           <div>
