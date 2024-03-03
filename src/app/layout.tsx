@@ -19,12 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className="hidden min-[300px]:flex">
+          <p>FlipZone</p>
+        </div>
         <div>
           <div>
             <Header />
           </div>
           <div>
-            <Hero/>
+            <Hero />
           </div>
           {children}
         </div>
