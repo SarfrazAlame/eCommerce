@@ -4,7 +4,7 @@ import { BsCart3 } from 'react-icons/bs'
 const Cart = () => {
   return (
     <div>
-        <BsCart3 />
+        <BsCart3 className='text-2xl cursor-pointer' />
     </div>
   )
 }
