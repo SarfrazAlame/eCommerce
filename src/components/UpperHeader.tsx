@@ -1,4 +1,4 @@
-import SignIn from "@/app/api/(auth)/SignIn";
+import SignIn from "@/app/(auth)/SignIn";
 import React from "react";
 import { VscAccount } from "react-icons/vsc";
 import Cart from "./Cart";

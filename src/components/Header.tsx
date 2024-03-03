@@ -1,4 +1,4 @@
-import SignIn from "@/app/api/(auth)/SignIn";
+import SignIn from "@/app/(auth)/SignIn";
 import React from "react";
 import Cart from "./Cart";
 import { BsCart3 } from "react-icons/bs";
@@ -19,7 +19,7 @@ const Header = () => {
         </form>
       </div>
       <div className="hidden sm:flex gap-6">
-        <button className="hover:bg-gray-900 rounded-md px-3 py-2">Singin</button>
+        <Link href={'/signin'} className="hover:bg-gray-900 rounded-md px-3 py-2">Singin</Link>
         <VscAccount className="text-2xl cursor-pointer mt-2" />
         <div className="mt-2">
           <Cart />
