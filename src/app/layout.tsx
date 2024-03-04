@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import UpperHeader from "@/components/UpperHeader";
+import RecoilProvider from "./recoil/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,7 @@ export default function RootLayout({
           <div>
             <Hero />
           </div>
-          {children}
+          <RecoilProvider>{children}</RecoilProvider>
         </div>
       </body>
     </html>
